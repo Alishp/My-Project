@@ -46,22 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
 			}
 		});
-		mEditText.addTextChangedListener(new TextWatcher() {
-			@Override
-			public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-				tv.setText(s);
-			}
-
-			@Override
-			public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-			}
-
-			@Override
-			public void afterTextChanged(Editable s) {
-
-			}
-		});
+		
 
 		b.setOnLongClickListener(new View.OnLongClickListener() {
 			@Override
